@@ -189,3 +189,35 @@ int main()
     } while (izbor != 0);
 
 }
+
+
+// 6.Да се напише програма която извежда редицата на Фибоначи.
+
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+
+void fib(int n) {
+	int t1 = 0;
+	int t2 = 1;
+	int seriq = 0;
+
+	printf_s("%d, %d, ", t1, t2);
+
+	for (int i = 2; i < n; ++i) {
+		seriq = t1 + t2;
+		t1 = t2;
+		t2 = seriq;
+		printf_s("%d, ", seriq);
+	}
+}
+
+int main()
+{      
+	int n;
+	printf_s("N = ");
+	scanf_s("%d", &n);
+	fib(n); 
+
+	return 0;
+}
