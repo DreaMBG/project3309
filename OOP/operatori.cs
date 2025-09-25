@@ -19,13 +19,13 @@ namespace logicheski_pobitovi_operatori
             Console.WriteLine($"(a / b) = {a / b}");
             Console.WriteLine($"(a % b) = {a % b}\n");
 
-            Console.WriteLine("Logicheski operatori");
+            Console.WriteLine("Logicheski operatori\n");
             bool x = true, y = false;
             Console.WriteLine($"x && y = {x && y}");
             Console.WriteLine($"x || y = {x || y}");
             Console.WriteLine($"!x = {!x}");
 
-            Console.WriteLine("Pobitovi operatori");
+            Console.WriteLine("Pobitovi operatori\n");
             int m = 7, n = 3;
             Console.WriteLine($"m | n = {m | n}");
             Console.WriteLine($"m & n = {m & n}");
@@ -39,3 +39,4 @@ namespace logicheski_pobitovi_operatori
         }
     }
 }
+
